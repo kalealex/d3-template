@@ -12,7 +12,7 @@ var svg = d3.select("#chart-container").append("svg")
 
 d3.csv("cars.csv")
     .then(function (data) {
-        console.log(data)
+        console.log(data);
         // plot data...
     })
     .catch(function (err) {
